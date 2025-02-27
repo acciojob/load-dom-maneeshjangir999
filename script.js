@@ -1,1 +1,3 @@
-document.write("DOM load success")
+document.addEventListener("DOMContentLoaded",()=>{
+	document.body.textContent = "DOM load success"
+})
